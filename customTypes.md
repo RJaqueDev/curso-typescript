@@ -25,3 +25,5 @@ let miTipo : UserCharge = 'admin';
 ```
 
 Esas son las funcionalidades de los custom types
+
+La documentación de Typecript recomienda usar interaces en vez de tiops

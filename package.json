@@ -7,7 +7,11 @@
     "start:types": "tsc basics/types.ts --outdir dist/ && node dist/types.js",
     "start:enums" : "tsc basics/enums.ts --outdir dist/ && node dist/enums.js",
     "start:interfaces": "tsc basics/interfaces.ts --outdir dist/ && node dist/interfaces.js",
-    "start:customTypes": "tsc basics/customTypes.ts --outdir dist/ && node dist/customTypes.js"
+    "start:customTypes": "tsc basics/customTypes.ts --outdir dist/ && node dist/customTypes.js",
+    "start:clases": "tsc basics/clases.ts --outdir dist/ && node dist/clases.js",
+    "start:functions": "tsc basics/functions.ts --outdir dist/ && node dist/functions.js",
+    "start:namspaces": "tsc advanced/namespaces.ts --outdir dist/ && node dist/namespaces.js",
+    "start:modules": "tsc advanced/modules/modulos.ts --outdir dist/ && node dist/namespaces.js"
   },
   "repository": {
     "type": "git",
